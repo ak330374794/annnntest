@@ -1,0 +1,29 @@
+{
+  "name": "annn_react_test",
+  "version": "1.0.1",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "clear-module": "^4.1.2",
+    "lodash": "^4.17.21",
+    "umi": "^4.0.72"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^14.1.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@umijs/plugin-electron": "^0.2.2",
+    "electron": "25.3.0",
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
